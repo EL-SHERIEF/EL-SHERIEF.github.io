@@ -188,8 +188,15 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></scr
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
      <script type="text/javascript">
-        new Splide( '#slider1' ).mount();
-        new Splide( '#slider2' ).mount();
+               new Splide( '#slider1',{
+            type: 'loop',
+            speed: 1000,
+        }) .mount();
+        new Splide( '#slider2',{ type: 'loop',
+        speed: 1000,} ).mount();
+
+
+
         gsap.registerPlugin(ScrollTrigger);
         gsap.to("#l1" ,{
             backgroundPositionX: "0%",
