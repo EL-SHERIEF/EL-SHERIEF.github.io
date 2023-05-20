@@ -341,16 +341,7 @@ opacity: 0.6;
     justify-content: center;
     align-items: center;
 }
-.bg{
-    position: absolute;
-margin-top: 70vw;
-    z-index: -2;
-    width: 50vw;
-    height: 60vw;
-    background-image: url(../img/me2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 .Section4{
     margin-bottom: 0vw;
     font-family: 'Poppins', sans-serif;
