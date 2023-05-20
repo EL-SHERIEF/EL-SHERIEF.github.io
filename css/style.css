@@ -115,7 +115,9 @@ margin-top: 2.6%;
     font-size: 1.3vw;
     transition: 1s;
     list-style: none;}
-
+.sideButtons li a{
+    cursor:none;
+}
     .magnetic{
         color: #aa9f8b;
         text-decoration: none;
