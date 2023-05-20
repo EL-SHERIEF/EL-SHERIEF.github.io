@@ -351,6 +351,15 @@ opacity: 0.6;
     justify-content: center;
     align-items: center;
 }
+.Section4::after{
+margin-top: 10vw;
+    background-color: #aa9f8b51;
+    content: '';
+    z-index: 2;
+    height: 1px;
+    width: 100vw;
+    left: 0;
+} 
 .splide{
     width: 70vw;
     height: 39vw;
