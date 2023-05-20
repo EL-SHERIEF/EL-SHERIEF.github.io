@@ -391,7 +391,18 @@ width: 100%;
     z-index: 1;
   }
 
+.splide__arrow{
+   filter:contrast(0%);
+    opacity: 1;
+    background: none;
+}
 
+.splide__pagination__page.is-active{
+    background-color: #c3b190;
+}
+.splide__pagination__page{
+    background-color: #aa9f8b36;
+}
 .Section5{
     font-family: 'Poppins', sans-serif;
     color: #aa9f8b;
