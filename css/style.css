@@ -429,7 +429,7 @@ width: 100%;
     color: #aa9f8b;
     width: 100vw;
     height: 80vw;
-    
+        margin-top: 20VW;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -459,11 +459,11 @@ line-height: 7vw;
    }
    
 .photoFrame2{
-    background-image: url(../img/me.png);
+    background-image: url(../img/me2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50vw;
-    height: 60vw;
+    width: 60vw;
+    height: 80vw;
     position: absolute;
     z-index: -1;
     margin-top: -90vw;
