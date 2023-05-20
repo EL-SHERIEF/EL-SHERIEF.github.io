@@ -204,6 +204,28 @@ opacity: 0.6;
     align-items: center;
  }
 
+
+.items{
+    position: absolute;
+    z-index: 4;
+    width: 100vw;
+    left: 0;
+    
+}
+.cup{
+    width: 18vw;
+    position: absolute;
+    left: -8vw;
+    transform: rotatez(0deg);
+}
+.mouse{
+    margin-top: 35vw;
+    right: -12vw;
+    width: 22vw;
+    position: absolute;
+}
+
+
  .art{
     margin-bottom: 22VW;
     font-family: 'Poppins', sans-serif;
