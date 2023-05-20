@@ -42,6 +42,7 @@ body{height: 700VH;
     flex-wrap: nowrap;
     align-items: center;
     font-family: 'Poppins', sans-serif;
+    z-index:8
 }
 .logo{
     width: 10%;
