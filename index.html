@@ -56,6 +56,10 @@
             <p class="h1" id="l3">design high quality &</p>
             <p class="h1" id="l4">impactful designing experience.</p>
         </div>
+        <div class="items">
+        <img src="img/mouse.png"class="mouse">
+        <img src="img/cup.png" class="cup">
+        </div>
         <div class="art2" data-aos="fade-up" data-aos-offset="100">
             <p class="h2">WHAT I DO</p>
             <p class="h1" id="k1">FRONTEND</p>
@@ -496,6 +500,20 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></scr
             
           });
         });
+     $(window).on("scroll", function () {
+            var parallax = $(".mouse");
+            var scrollPosition = $(this).scrollTop();
+            parallax.css("transform", "rotateZ(" + scrollPosition * -0.007 + "deg" + ") rotateX("+ scrollPosition * -0.01 + "deg" +") translatey("+ scrollPosition * -0.1 + "px" +")");
+    
+          });
+          
+          $(window).on("scroll", function () {
+            var parallax = $(".cup");
+            var scrollPosition = $(this).scrollTop();
+            parallax.css("transform", "rotateZ(" + scrollPosition * 0.007 + "deg" + ") translatey("+ scrollPosition * 0.08 + "px" +")");
+    
+          });
+
 
 
 
