@@ -270,7 +270,7 @@ opacity: 0.6;
     margin-left: 0px;
     }
 
-    .art2{
+       .art2{
         width: 68%;
         font-family: 'Poppins', sans-serif;
      }
@@ -278,14 +278,14 @@ opacity: 0.6;
         font-weight: 900;
         letter-spacing: -0.4vw;
             width: 100%;
-        font-size: 7.8vw;
+        font-size: 8vw;
         }
 
     .art2 .h2{
         font-weight: 500;
         line-height: 0vw;
             color: #aa9f8b;
-            margin-bottom: -7vw;
+            margin-bottom: -7.5vw;
             letter-spacing: 0.4vw;
             font-size: 1vw;
         }
@@ -310,7 +310,7 @@ opacity: 0.6;
         color: transparent;
         background-clip: text;
         -webkit-background-clip: text;
-        margin-bottom: -12.5vw;
+        margin-bottom: -13vw;
         margin-left: 0px;
         display: flex;
         flex-direction: column;
@@ -320,7 +320,7 @@ opacity: 0.6;
             position: absolute;
             content: '';
             width: 100vw;
-            height: 8vw;
+            height: 8.2vw;
             left: 0;
             border-bottom: solid 1px #aa9f8b51;
             margin-top: 1.3vw;
@@ -329,7 +329,7 @@ opacity: 0.6;
             position: absolute;
             content: '';
             width: 100vw;
-            height: 8vw;
+            height: 8.2vw;
             left: 0;
             border-bottom: solid 1px #aa9f8b51;
             margin-top: -5.4vw;
