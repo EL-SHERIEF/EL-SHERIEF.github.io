@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap:https://entkal.github.io/sitemap.xml
