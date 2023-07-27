@@ -135,7 +135,7 @@ margin-top: 2.6%;
         text-decoration: none;
     }
     .magnetic i:hover{ font-weight: 600;
-        color: #000000;
+        color: #0d0d0d;
     }
     
  .Section1{
@@ -199,6 +199,8 @@ font-size: 1.1vw;
 opacity: 0.6;
  }
  .photoFrame{
+    opacity: 0.6;
+    mix-blend-mode: lighten;
     position: absolute;
     top: 30vh;
     z-index: -2;
@@ -348,7 +350,9 @@ opacity: 0.6;
             border-bottom: solid 1px #aa9f8b51;
             margin-top: -5.4vw;
         }
+   
 .Section3{
+    padding: 15vh 0;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -367,79 +371,29 @@ opacity: 0.6;
     justify-content: center;
     align-items: center;
 }
-.Section4::after{
-margin-top: 10vw;
-    background-color: #aa9f8b51;
-    content: '';
-    z-index: 2;
-    height: 1px;
-    width: 100vw;
-    left: 0;
-} 
-.splide{
-    width: 70vw;
-    height: 39vw;
- margin-top: 8vw;
- margin-bottom: 5vw;
-
-
-}
-.splide .wrapper{
-    width: 70vw;
-    overflow: hidden;
-    border-radius: 1vw;
-}
-.splide .img{
-    background-size: cover;
-    width: 70vw; border-radius: 30px;
-    height: 40vw;
-    transform: scale(100%);
-}
-.splide li{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.splide li p{
+.Section4 .dots{
+    font-size: 7vw;
+    margin-top: 12vw;
+ position: absolute;
+ left: 16.5vw;
     color: #aa9f8b;
-    background-color: #0d0d0d;
-backdrop-filter: blur(20px);
-margin-top: 0vw;
-padding: 1.2vw 0;
-width: 100%;
-    line-height: 0vw; 
-       font-weight: 300;
-    font-size: 0.8vw;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    position: absolute;
-    z-index: 3;
 }
-.splide li p span{
-    letter-spacing: 0.1vw;
-    font-size: 0.6vw;
-    opacity: 0.6;
-}
+.videoframe{
+    width: 97vw;
 
-.splide video {
-    min-width: 20%;
-    min-height:41vw;
-    max-height: 30vw;
-    z-index: 1;
+    overflow: hidden;
+padding: 30vw 0;
+padding-bottom: 0;
+}
+.videoframe video {
+    right: 0;
+    bottom: 0;
+    border-radius: 2vw;
+    min-width: 100%; 
+    max-width: 100%;
+    min-height: 100%;
   }
-
-.splide__arrow{
-   filter:contrast(0%);
-    opacity: 1;
-    background: none;
-}
-
-.splide__pagination__page.is-active{
-    background-color: #c3b190;
-}
-.splide__pagination__page{
-    background-color: #aa9f8b36;
-}
+  
 .Section5{
     font-family: 'Poppins', sans-serif;
     color: #aa9f8b;
@@ -813,105 +767,13 @@ padding-bottom: 2vh;
         justify-content: center;
         align-items: center;
     }
-    .Section4::after{
-    margin-top: -10vw;
-    margin-bottom: 30vw;
-        background-color: #aa9f8b51;
-        content: '';
-        z-index: 2;
-        height: 1px;
-        width: 100vw;
-        left: 0;
-    } 
-    #slider1{
-        height: 60vw;
-    }
-    #slider2{
-        width: 95vw;
-        margin-top: 10vw;
-    }
-    .splide{
-        width: 100vw;
-        height: 100vw;
-     margin-top: 30vw;
-     margin-bottom: 10vw;
-    }
-    .splide .wrapper{
-        width: 180%;
-        border-radius: 1vw;
-    }
-    .splide__slide{
-        border-radius: 2vw;
-        overflow: hidden;
-    }
-    .splide .img{
-        background-size: cover;
-        width: 100%; border-radius: 30px;
-        height: 100vw;
-        transform: scale(100%);
-    }
-   
-    .splide li{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .splide li p{
-        left: 0;
-        color: #aa9f8b;
-        background-color: #0d0d0d;
-    backdrop-filter: blur(20px);
-    margin-top: 15vw;
-    padding: 1.4vw 0;
-    width: 100vw;
-        line-height: 0vw; 
-           font-weight: 300;
-        font-size: 3vw;
-        text-align: center;
-        font-family: 'Poppins', sans-serif;
-        position: absolute;
-        z-index: 3;
-    }
-    #odd{
-        margin-top: -63.5vw;
-    }
-    #odd5{
-        margin-top: 0vw;
-    }
-    #odd6{
-        margin-top: -55vw;
-    }
-    #odd7{
-        margin-top: 0vw;
-    }
-    #odd8{
-        margin-top: 0vw;
-    }
 
-    .splide li p span{
-        letter-spacing: 0.1vw;
-        font-size: 2vw;
-        opacity: 0.6;
+    .Section4 .dots{
+        font-size: 15vw;
+        margin-top: 50vw;
+     left: 7vw;
     }
-    
-    .splide video {
-        min-width: 100%;
-        min-height:60vw;
-        max-height: 60vw;
-        z-index: 1;
-      }
-    
-    .splide__arrow{
-       filter:contrast(20%);
-        opacity: 1;
-        background: none;
-    }
-    
-
-    .splide__pagination__page{
-       display: none;
-    }
+  
     .Section5{
         font-family: 'Poppins', sans-serif;
         color: #aa9f8b;
